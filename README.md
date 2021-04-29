@@ -21,4 +21,5 @@ When both scripts are running you can enter the servers IP or domain name in a B
 Add ```https://arduino.esp8266.com/stable/package_esp8266com_index.json``` to Arduinos 'Additional Boards Manager URL'
 
 Change baord settings to this:
-![ESP Settings](/images/esp_settings.png)
+  
+<img src="/images/esp_settings.png" width="40%">
