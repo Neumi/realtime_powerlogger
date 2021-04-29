@@ -2,6 +2,9 @@
 An easy power logger for S0 interfaced power meters with internet connection and chart view.
 Depending on the power meter you get data with 0.5Wh or 1Wh resolution in real-time on a website.
 
+
+This setup can be used to log and preview solar power production data in real time. 
+
 # Instalation Server
 ```sudo apt install nohub ```
   
@@ -48,3 +51,7 @@ Enter your servers IP address or domain name. When enough data is present, the p
 <img src="/images/installed.jpg" width="40%">
 I added a Meanwell 5V power supply for DIN rails and used a DIN rail enclosure with three slots.
 STL files for the NodeMCU for DIN rails are available in the STL folder.
+
+
+## Disclaimer
+Only people with training are allowed to work on power grids or mains voltage.
