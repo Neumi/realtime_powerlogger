@@ -1,6 +1,6 @@
 # realtime_powerlogger
 An easy power logger for S0 interfaced power meters with internet connection and chart view.
-
+Depending on the power meter you get data with 0.5Wh or 1Wh resolution in real-time on a website.
 
 # Instalation Server
 ```sudo apt install nohub ```
