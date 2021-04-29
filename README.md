@@ -15,8 +15,10 @@ An easy power logger for S0 interfaced power meters with internet connection and
 
 Ports 5005 for UDP and 80 for TCP have to be open to public.
 
+When both scripts are running you can enter the servers IP or domain name in a Browser to access the website.
 
 # Installation Arduino ESP8266
 Add ```https://arduino.esp8266.com/stable/package_esp8266com_index.json``` to Arduinos 'Additional Boards Manager URL'
 
 Change baord settings to this:
+![ESP Settings](/images/esp_settings.png)
