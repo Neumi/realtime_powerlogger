@@ -48,7 +48,8 @@ Enter your servers IP address or domain name. When enough data is present, the p
 
 
 # Install the NodeMCU in a box near the power meter
-<img src="/images/installed.jpg" width="40%">
+<img src="/images/case_2.png" width="40%"> <img src="/images/installed.jpg" width="40%"> 
+  
 I added a Meanwell 5V power supply for DIN rails and used a DIN rail enclosure with three slots.
 STL files for the NodeMCU for DIN rails are available in the STL folder.
 
