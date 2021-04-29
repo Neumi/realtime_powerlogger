@@ -30,7 +30,21 @@ const char *ssid = "NETWORK_NAME"; //CHANGE HERE WIFI NETWORK NAME
 const char *password = "NETWORK_PASSWORD"; //CHANGE HERE WIFI PASSWORD
 #define serverIp "111.222.333.444" //CHANGE HERE TO SERVER IP
 ```
-Upload Sketch to NodeMCU.
-Connect S0 output from power meter to GPIO5/D1 and add a ~10k Ohm resistor to GPIO5/D1 and ground.
-Connect 3.3V from ESP8266/NodeMCU to P+ of your S0 device.
+Upload the sketch to the NodeMCU.
+  
+Connect the S0 device on P- from power meter to GPIO5/D1 and add a ~10k Ohm resistor between GPIO5/D1 and ground.
+  
+Connect 3.3V from ESP8266/NodeMCU to P+ on your S0 device.
 
+
+# Check the website
+
+Enter your servers IP address or domain name. When enough data is present, the page should show an overview with these two charts:
+
+<img src="/images/real_time_solar_production.png" width="40%"> <img src="/images/solar_production.png" width="40%">
+
+
+# Install the NodeMCU in a box near the power meter
+<img src="/images/installed.jpg" width="40%">
+I added a Meanwell 5V power supply for DIN rails and used a DIN rail enclosure with three slots.
+STL files for the NodeMCU for DIN rails are available in the STL folder.
