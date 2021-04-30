@@ -57,5 +57,9 @@ I added a Meanwell 5V power supply for DIN rails and used a DIN rail enclosure w
 STL files for the NodeMCU for DIN rails are available in the STL folder.
 
 
+## Video:
+[![LINK TO VIDEO](https://img.youtube.com/vi/A4cKONG77xE/0.jpg)](https://www.youtube.com/watch?v=A4cKONG77xE)
+
+
 ## Disclaimer
 Only people with training are allowed to work on power grids or mains voltage.
