@@ -34,7 +34,10 @@ const char *password = "NETWORK_PASSWORD"; //CHANGE HERE WIFI PASSWORD
 #define serverIp "111.222.333.444" //CHANGE HERE TO SERVER IP
 ```
 Upload the sketch to the NodeMCU.
-  
+
+
+<img src="/images/schematic.png" width="40%">
+
 Connect the S0 device on P- from power meter to GPIO5/D1 and add a ~10k Ohm resistor between GPIO5/D1 and ground.
   
 Connect 3.3V from ESP8266/NodeMCU to P+ on your S0 device.
