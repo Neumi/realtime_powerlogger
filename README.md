@@ -6,6 +6,8 @@ Depending on the power meter you get data with 0.5Wh or 1Wh resolution in real-t
 This setup can be used to log and preview solar power production data in real time. 
 
 # Instalation Server
+```sudo apt update ```
+
 ```sudo apt install nohub ```
   
 ```git clone https://github.com/Neumi/realtime_powerlogger ```
